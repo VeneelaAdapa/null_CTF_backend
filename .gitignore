@@ -1,0 +1,50 @@
+{
+    "challenges": [
+             {
+                 "id" : "1",
+                 "section":"Decoding",
+                 "challenge" : "1. be3p_b00p_be3p_b00p (Binary to decimal conversion)",
+                 "description" : "<p>To a computer,everything is either a 1 or a 0. Even if you feed it a image of pizzas,\r\n it'll still be a bunch of 0s and 1s. This way of representing things is called base-2 numeral system or binary numeral system.\n The flag for this challenge is a 10-digit number in the decimal number system(ranges from 0 to 9).\n We have given your computer special instructions to hide it away from you. \nBut you know how computers are,they are high maintenance.So maybe if you ask it nicely,\n it might tell you what the flag is!<button>Ask computer nicely</button><br>  <input type=\"text\" placeholder=\"answer\"></input> If user enters answer in binary, story continues:  Well, the flag that you have entered might be correct \nbut there's no way of verifying it. We, unlike computers, only speak decimal. So can you please present the flag in a way that we understand? </p>"
+             },
+             {
+                 "id" : "2",
+                 "section": "Decoding",
+                 "challenge" : "2. iam_uniqu3 (Checksum of file):",
+                 "description": "<p>Did you know that files have fingerprints just like us? They *are* just 0s  and is but they too have fingerprints. The entropy(randomness) lies is how their contents(0s and 1s) are arranged. \nThis fingerprint is often calculated using hash functions, such as SHA256.The flag for this challenge is the fingerprint of this <a href=\"/file.txt\">file</a> calculated using SHA256 hash function.</p>"
+
+             },
+             {
+                 "id":3,
+                 "section": "Decoding",
+                 "challenge" : "3. .... --- .-- -.. -.--(Decoding base64 encoded flag):",
+                 "description":"<p> What does <insert-base64-encoded-flag> mean? I think it has something to \n  do with a binary-to-text encoding that's popular on the World Wide Web </p>"
+
+             },
+             {
+                 "id":4,
+                 "section":"Hidden in plain sight",
+                 "challenge":"1. catch_m3_if_u_can (Flag hidden in TCP stream)",
+                 "description":"<p> We wanted this challenge to be very easy. In fact, we wanted to just give the flag away without any ceremony. Because of how simple this challenge is, we figured we'll put our laziest server up to this task.  We asked it to just give it away when you ask for it. But it looks like it is feeling particularly energetic tonight and is pulling tricks on us. We are sorry but you are going to have to retrieve this flag to clear this challenge. http://dev.shuttlecraft.io:8081/ (please use Mozilla Firefox to open this link)</p>"
+             },
+             {
+                 "id":5,
+                 "section":"Hideen in the plain sight",
+                 "challenge":"2.  hidd3n_in_p1ain_sight (Flag hidden in a large file):",
+                 "description":"<p> The flag is hidden in <a href=\"./voodo.txt\">this file</a>.It would be very tedious if you look for it manually, something tells me there's a better way."
+             },
+             {
+                 "id" :6,
+                 "section":"Hideen in plain sight",
+                 "challenge":"3. hack_the_gibson (Flag hidden in either cookie/page src):",
+                 "description" : "Hack this page to retrieve the flag for this challenge"
+             },
+             {
+                 "id":7,
+                 "section":"Reverse Engineering",
+                 "challenge":" 1. cryptic323^\\_^3_&s% (Flag hidden in source code):",
+                 "description":"You are tasked with hacking into Dr. Evil's lab and retrieving the blueprints for his Doomsday Project. \nThe lab is protected by a state-of-the-art locked vault door. The door is controlled by a computer \nand requires a password to open. The source code for the vault was \n obtained by one of our agents. Please find the password(the flag) hidden \n in the source code."
+               
+             }
+
+    ]
+}
